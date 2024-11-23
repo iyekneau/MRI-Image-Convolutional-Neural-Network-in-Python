@@ -8,7 +8,7 @@ This is a super basic convolutional neural net that analyzes and sorts 3 classes
 I intend to try to make a diagnostic neural net and add on to this project, but it shall take a while to get the appropriate control dataset together, as 
 medical databases do not often include benign photos. 
 
-Additionally, some issues may present themselves regarding the plane of view each photo was taken in (axial, saggital, etc.). We may get around this by supplying each 
+Additionally, some issues may present themselves regarding the plane of view each photo was taken in (axial, sagittal, etc.). We may get around this by supplying each 
 view type as its own class.
 
 A special thanks to NIH MedPix, who supplied all the photos for the dataset.
@@ -17,11 +17,7 @@ Additionally, I have included the feature map code and some photos that give som
 It's interesting to see the net highlight the marked contrasts on the boundaries of abcesses and glioblastomas, as well as to see the different ways image planarity affects 
 the lung class judgements.
 
-I've included:
--The main script to create the net,
--the trained net in both state.dict and model form
--the compiled data set
--as well as the script to run a feature map on this type of net (one may simply torch.load(r"....",weights_only=False) to check the included pretrained net)
+I've included:The main script to create the net,the compiled data set, as well as the script to run a feature map on this type of net (one may simply torch.load(r"....",weights_only=False) to check their pretrained net)
 
 
 Feel free to add on and improve the project as you like!
