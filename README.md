@@ -17,7 +17,11 @@ Additionally, I have included the feature map code and some photos that give som
 It's interesting to see the net highlight the marked contrasts on the boundaries of abcesses and glioblastomas, as well as to see the different ways image planarity affects 
 the lung class judgements.
 
-I've included:The main script to create the net,the compiled data set, as well as the script to run a feature map on this type of net (one may simply torch.load(r"....",weights_only=False) to check their pretrained net)
+I've included:
+
+The main script to create the net,the compiled data set 
+
+as well as the script to run a feature map on this type of net (one may simply torch.load(r"....",weights_only=False) to check their pretrained net)
 
 
 Feel free to add on and improve the project as you like!
